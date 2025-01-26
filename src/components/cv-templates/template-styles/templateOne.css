@@ -1,0 +1,144 @@
+div.page-one  hr{
+    width:800px;
+}
+
+
+.none-display {
+    display: none;
+    
+}
+
+div.page-one ul {
+    margin-left: -20px;
+    display: grid;
+}
+
+div.page-one {
+    position: fixed;
+    top: 0;
+
+    margin-left: 650px;
+    margin-top: 10px;
+    width: 850px;
+    height: 710px;
+    max-height: 710px;
+
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background-color: #F5F5F5;
+    color: #2b2a2a;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+    scroll-behavior: smooth;
+}
+
+div.t1-user-header-info {
+    display: flex;
+    gap: 60px;
+    margin-left: 20px;
+}
+div.t1-user-header-info > div.user-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    background-color: blueviolet;
+
+    margin-top: 30px;
+}
+
+div.t1-user-header-info > div.names {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 450px;
+    padding-top: 20px;
+}
+
+div.t1-user-header-info > div.names > div.first-name {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+div.t1-user-header-info > div.names > div.surname {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+div.t1-user-header-info > div.names > div.role {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+div.page-one > div.contact-summary > div.contact , div.summary {
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+div.page-one > div.contact-summary > div.summary {
+    font-size: 13px;
+    width: 400px;
+    overflow-y: hidden;
+    max-height: 190px;
+}
+div.page-one > div.contact-summary {
+    display: grid;
+    grid-template-columns: 350px 500px;
+    gap: 50px;
+
+    margin-left: 20px;
+}
+
+
+div.page-one > div.page-one-content-conatainer {
+    display: grid;
+    grid-template-columns: 350px 450px;
+    gap: 50px; 
+    margin-left: 20px;
+}
+
+
+div.page-one > div.page-one-content-conatainer > div.skills-education > hr {
+    width: 400px;
+}
+
+div.page-one-experience-info{
+    width: 420px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+div.page-one-experience-info > div.work-place-info{
+    margin-top: -20px;
+    font-size: 14px;
+
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 40px;
+}
+
+div.page-one-experience-info > div.work-place-info-one {
+    font-size: 13px;
+}
+
+div.page-one-experience-info > div.description {
+    font-size: smaller;
+}
+
+div.page-one-education-info > div.edu-info {
+    margin-top: -20px;
+    font-size: 13px;
+
+    display: grid;
+    grid-template-columns: 200px 150px;
+}
+
+div.education-val {
+    padding-bottom: 40px;
+}

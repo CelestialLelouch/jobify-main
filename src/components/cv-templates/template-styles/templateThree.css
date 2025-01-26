@@ -1,0 +1,209 @@
+.none-display {
+    display: none;
+}
+
+div.page-three {
+    position: fixed;
+    top: 0;
+
+    margin-left: 590px;
+    margin-top: 10px;
+    width: 900px;
+    height: 710px;
+    max-height: 710px;
+
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden ;
+
+    background-color: white;
+    color: #2b2a2a;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+    scroll-behavior: smooth;
+
+}
+
+div.page-three {
+    display: grid;
+    grid-template-columns: 500px 350px;
+    gap: 40px;
+}
+
+
+div.page-three-header {
+    background-color: #DFC3DF;
+    min-width: 350px;
+}
+
+div.page-three-header > * {
+    margin-left: 30px;
+}
+
+
+/*
+    CONTENT ONE
+*/
+div.page-three-content-one {
+    margin-left: 25px;
+    word-wrap: break-word;
+}
+
+
+div.page-three-content-one div.content-one-value-one{
+    min-height: 130px;
+    max-height: 130px;
+    
+}
+div.page-three-content-one  div.page-three-names {
+    display: flex;
+    gap: 10px;
+
+    font-size: large;
+}
+
+/*
+            EXPERIENCE STYLES
+*/
+
+div.page-three-role {
+    font-size: x-large;
+    margin-top: -50px;
+}
+
+
+div.page-three-summary > div.summary {
+    min-height: 150px;
+    max-height: 150px;
+    overflow: hidden;
+
+    font-size: medium;
+}
+
+
+div.page-three-experience {
+    margin-top: 20px;
+}
+div.pg-3-role {
+    display: grid;
+    grid-template-columns: 300px 150px;
+    gap: 35px;
+}
+
+div.pg-3-workplace {
+    font-size: small;
+}
+
+div.pg-3-projects {
+    margin-top: 20px;
+}
+
+
+div.pg-3-reference-values {
+    display: grid;
+    grid-template-columns: 225px 225px;
+    gap: 50px;
+}
+
+div.pg-3-reference {
+    font-size: 15px;
+}
+
+div.pg-3-reference  div.ref-item-1 {
+    margin-top: -15px;
+}
+
+div.pg-3-reference div.ref-item-2 {
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+div.pg-3-reference div.ref-item-3 {
+   font-size: 13px;
+}
+
+/*
+    CONTENT TWO
+*/
+div.page-three-content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.pg-3-profile-image {
+    background-color: #620A62;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+    margin-top: 40px;
+}
+
+div.pg-3-contact-info {
+    font-size: medium;
+    margin-left: -20px;
+}
+
+div.pg-3-course {
+    font-size: small;
+    margin-top: 5px;
+}
+
+div.pg-3-duration {
+    font-size: small;
+}
+
+div.content-two-value-two ul {
+    font-size: 14px;
+    margin-left: -20px;
+}
+
+
+div.pg-3-matric{
+    display:  flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+div.pg-3-project-description {
+    font-size: small;
+    font-weight: bold;
+
+    max-height: 200px;
+    max-width: 490px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+div.pg-3-project-description-value {
+    margin-top: -13px;
+}
+
+div.pg-3-project-tools {
+
+    font-size: small;
+    margin-top: 10px;
+
+    max-width: 490px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+div.pg-3-project-tools ul {
+    margin-top: -13px;
+
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    gap: 10px;
+    
+}
+
+div.pg-3-project-tools ul > li {
+    max-height: 25px;
+}

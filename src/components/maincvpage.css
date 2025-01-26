@@ -1,0 +1,271 @@
+div.cv-entry{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div.controller {
+    width: 550px;
+    position: fixed;
+    height: calc(20vh - 30px);
+    bottom: 0;
+    border: 2px solid green;
+    border-radius: 10px;
+
+    margin-bottom: 5px;
+}
+
+div.container {
+    width: 550px;
+
+    position: fixed;
+    max-height: calc(80vh - 30px);
+    background-color: #F5F5F5;
+    border: 2px solid green;
+    border-radius: 10px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+div.selector-top {
+    font-weight: bold;
+    padding-left: 20px;
+
+    width: 100%;
+    background-color: #808080c9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-bottom: 1px solid green;
+    cursor: pointer;
+}
+div.selector{
+    font-weight: bold;
+    padding-left: 20px;
+
+    width: 100%;
+    background-color: #808080c9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-bottom: 1px solid green;
+    cursor: pointer;
+}
+
+div.selector-bottom{
+    font-weight: bold;
+    padding-left: 20px;
+
+    width: 100%;
+    background-color: #808080c9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-bottom: 1px solid green;
+    cursor: pointer;
+}
+
+div.personal-info {
+    padding-left: 20px;
+}
+
+div.value-header {
+    width: 99%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+    border: 2px solid grey;
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+}
+
+div.education, div.experience {
+    padding-left: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+div.cv-entry div.form-group {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+div.cv-entry div.form-group span{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.cv-entry div.form-group span label {
+    font-weight: bold;
+}
+
+div.cv-entry div.form-group span input, div.cv-entry div.form-group span input {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.form-group-one {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.form-group-one input{
+    width: 486px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+div.form-group-one span input, div.form-group-one span textarea {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.form-group-one span textarea{
+    resize: vertical;
+    height: 100px;
+    width: 490px;
+}
+
+div.form-group button.btn,  .btn-disabled{
+    height: 35px;
+    width: 150px;
+    margin-left: 10px;
+
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    color: white;
+    background-color: green;
+    transition: transform 0.3 linear;
+}
+
+div.form-group .btn:hover{
+    transform: scale(1.01);
+    background-color: darkgreen;
+}
+
+button.btn-disabled {
+    background-color: #2b2a2a;
+    color: white;
+}
+div.add-value {
+    width: 100%;
+    text-align: center;
+}
+
+button.add-value {
+    width: 60%;
+
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid green;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add-value:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+div.none-display {
+    display: none;
+}
+/*===============================================================================================================
+                                            CV PAGE STYLING
+================================================================================================================*/
+
+div.cv-page {
+
+    position: fixed;
+    top: 0;
+
+    margin-left: 650px;
+    margin-top: 10px;
+    width: 700px;
+    height: 710px;
+    max-height: 750px;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background-color: white;
+    color: #2b2a2a;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+}
+
+div.value-group-header h1.user-name {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+div.value-group-contact-info {
+    margin-top: -40px;
+    font-family: 'open sans' !important;
+}
+
+div.value-group{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: -11px;
+    font-family: 'open sans' !important;
+    text-align: start;
+
+    padding-left: 40px;
+}
+div.values {
+    margin-top:-20px ;
+}
+hr {
+    width: 100%;
+}
+
+.education-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-group {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
+}
+
+.info-group-description {
+    width: 95%;
+    overflow-x: break-word;
+}

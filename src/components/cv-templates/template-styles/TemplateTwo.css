@@ -1,0 +1,154 @@
+.none-display {
+    display: none;
+}
+
+.bullet {
+    margin-top:-20px ;
+}
+
+.block {
+    display: block;
+    width: 790px;
+    min-height: 80px;
+}
+
+td {
+    margin-top: 0px;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+}
+
+div.page-two {
+    position: fixed;
+    top: 0;
+
+    margin-left: 650px;
+    margin-top: 10px;
+    width: 850px;
+    height: 790px;
+    max-height: 790px;
+
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden ;
+
+    background-color: white;
+    color: #2b2a2a;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+    scroll-behavior: smooth;
+}
+
+
+div.page-two-user-info {
+    display: grid;
+    grid-template-columns: 500px 340px;
+
+    margin-top: 20px;
+
+    font-weight: bold;
+}
+
+div.p2-names {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+    font-size: xx-large;
+}
+
+div.p2-names div.role {
+    font-weight: 100;
+}
+
+div.p2-summary {
+    margin-left: 20px;
+    width: 810px;
+}
+
+div.p2-content {
+    display: grid;
+    grid-template-columns: 280px 600px;
+    gap: 10px;
+}
+div.p2-content > td {
+    border-bottom: none;
+    border-left: 1px solid grey;
+}
+
+
+div.edu-info {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap:20px;
+}
+
+
+div.page-two-education-info  > div.edu-info{
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+
+div.p2-references {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 50px;
+}
+div.page-two-reference-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: -30px;
+}
+
+span.ref-item-1 {
+    margin-top:-40px;
+    font-style: italic;
+}
+
+span.ref-item-2, span.ref-item-3 {
+    margin-top: -35px;
+}
+
+
+/*
+    PROJECT  COMPONENT STYLING
+*/
+
+div.generic {
+    margin-left: 20px;
+}
+
+div.p2-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.page-two-project-info {
+    width: 700px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    word-wrap: break-word;
+
+    margin-left: 25px;
+    margin-top: -30px;
+}
+
+div.page-two-project-info ul{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    column-gap: 20px;
+    row-gap: 5px;
+}

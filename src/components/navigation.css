@@ -1,0 +1,71 @@
+.none-display {
+    display: none;
+}
+
+
+div.controls-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+div.navigation-controller {
+    background-color: white;
+    height: 100%;
+    border-radius: 9px;
+}
+
+div.navigation-controller > div.controls-nav> button {
+    height: 40px;
+    width: 90px;
+    margin-top: 5px;
+
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+div.navigation-controller > div.controls-nav> button:hover{
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+}
+
+
+div.nav-doc {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.navigation-controller button {
+    width: 140px;
+    margin-top: 3px;
+    margin-left: 5px ;
+    margin-right: 5px;
+
+    border-radius: 5px;
+    border: 2px solid green;
+
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.navigation-controller button :hover {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+}
+
+button.btn-active {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+}
